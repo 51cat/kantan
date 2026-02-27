@@ -3,5 +3,6 @@
 export(alpha_div)
 export(create_dir)
 export(disc_colors)
+export(progress_bar)
 export(savegg)
 export(seq_colors)

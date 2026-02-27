@@ -58,6 +58,17 @@ alpha_div(x, indices = c("shannon", "chao1", "ace"))
 alpha_div(x, indices = "all")
 ```
 
+### 进度条
+
+```r
+# 在循环中显示进度
+for (i in 1:100) {
+  Sys.sleep(0.02)
+  progress_bar(i, 100, prefix = "处理中:")
+}
+# 处理中: [==================================================] 100.00% | Elapsed: 2s
+```
+
 ## 可用配色
 
 ### 连续型配色 (seq_colors)

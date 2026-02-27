@@ -5,3 +5,4 @@
 * Added `create_dir()` for creating directories with optional path return format.
 * Added `savegg()` for saving ggplot objects with flexible options.
 * Added `alpha_div()` for calculating alpha diversity indices using vegan.
+* Added `progress_bar()` for displaying progress bars in loops.

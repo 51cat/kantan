@@ -58,6 +58,17 @@ alpha_div(x, indices = c("shannon", "chao1", "ace"))
 alpha_div(x, indices = "all")
 ```
 
+### Progress Bar
+
+```r
+# Display progress in loops
+for (i in 1:100) {
+  Sys.sleep(0.02)
+  progress_bar(i, 100, prefix = "Processing:")
+}
+# Processing: [==================================================] 100.00% | Elapsed: 2s
+```
+
 ## Available Palettes
 
 ### Sequential Palettes (seq_colors)
