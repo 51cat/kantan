@@ -1,0 +1,25 @@
+# R package
+*.Rproj.user
+*.Rhistory
+*.RData
+*.Ruserdata
+.Renviron
+
+# Build artifacts
+*.tar.gz
+*.Rcheck/
+oiishi*.zip
+
+# Documentation
+docs/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
